@@ -3,71 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High Traffic WikiPage</title>
+    <title>Ultimate Information Hub</title>
     <link rel="stylesheet" href="styles.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3150022621561768"
-            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3150022621561768" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <img src="img/logo.png" alt="Website Logo" class="logo">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="container">
+                <img src="img/logo.png" alt="Website Logo" class="logo">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="hero">
-            <img src="img/banner.jpg" alt="Banner">
-            <h1>Welcome to Your Ultimate Information Source</h1>
-            <p>Explore detailed articles on a wide range of topics</p>
+            <div class="hero-content">
+                <h1>Your Ultimate Information Hub</h1>
+                <p>Stay informed with the latest articles on various topics</p>
+                <a href="#articles" class="btn">Explore Now</a>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="content-section">
-            <article>
-                <h2>Featured Article</h2>
-                <img src="img/post-image.jpg" alt="Post Image">
-                <p>This is a summary of the featured article. It provides a brief overview of the main content.</p>
-                <a href="#">Read More</a>
-            </article>
+        <section id="articles" class="articles-section">
+            <div class="container">
+                <article class="featured-article">
+                    <h2>Featured Article: Discover the Secrets of High Traffic Websites</h2>
+                    <img src="img/post-image.jpg" alt="Post Image">
+                    <p>Uncover the strategies used by top sites to attract millions of visitors...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
 
-            <!-- Google AdSense Ad -->
-            <div class="ad-container">
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-3150022621561768"
-                     data-ad-slot="1234567890"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+                <div class="ad-container">
+                    <!-- Google AdSense Ad -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-3150022621561768"
+                         data-ad-slot="1234567890"
+                         data-ad-format="auto"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+
+                <div class="media-net-ad ad-container">
+                    <!-- Media.net Ad -->
+                    <script id="mNCC" language="javascript">
+                        medianet_width = "300";
+                        medianet_height = "250";
+                        medianet_crid = "123456789";
+                        medianet_versionId = "3111299";
+                    </script>
+                    <script src="https://contextual.media.net/nmedianet.js?cid=8CUICPH79"></script>
+                </div>
             </div>
-
-            <!-- Media.net Ad -->
-            <div class="ad-container">
-                <script id="mNCC" language="javascript">
-                    medianet_width = "300";
-                    medianet_height = "250";
-                    medianet_crid = "123456789";
-                    medianet_versionId = "3111299";
-                </script>
-                <script src="https://contextual.media.net/nmedianet.js?cid=8CUICPH79"></script>
-            </div>
-
-            <!-- Other ad networks can be added similarly -->
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 High Traffic WikiPage. All rights reserved.</p>
-        <ul class="footer-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="container">
+            <p>&copy; 2024 Ultimate Information Hub. All rights reserved.</p>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="script.js"></script>
