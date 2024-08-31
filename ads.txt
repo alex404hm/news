@@ -1,6 +1,5 @@
-# ads.txt for My Website
 
 google.com, pub-3150022621561768, DIRECT, f08c47fec0942fa0
 google.com, pub-2212613773882385, DIRECT, f08c47fec0942fa0
 media.net, 8CUICPH79, DIRECT
-propellerads.com, XXXXXXXXX, DIRECT  # Replace XXXXXXXXX with your PropellerAds account ID
+propellerads.com, XXXXXXXXX, DIRECT
